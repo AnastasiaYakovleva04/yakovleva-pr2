@@ -173,6 +173,7 @@ int main()
 
     std::cout << "\nmedian: " << median << std::endl;
     delete[] matrix;
+    delete[] flat;
   
     //3
 
@@ -254,4 +255,5 @@ int main()
     system("pause");
     return 0;
 }
+
 
